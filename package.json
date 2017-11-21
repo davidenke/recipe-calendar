@@ -1,12 +1,24 @@
 {
-  "id": "gmailinbox",
-  "name": "Inbox by Gmail",
+  "id": "googlecalendar",
+  "name": "Calendar by Gmail",
   "version": "1.0.0",
-  "description": "Inbox by Gmail",
+  "description": "Calendar by Gmail",
   "main": "index.js",
-  "author": "Stefan Malzner <stefan@adlk.io>",
+  "author": "David Enke <post@davidenke.de>",
   "license": "MIT",
   "config": {
-    "serviceURL": "https://inbox.google.com/"
+    "serviceName": "Google Calendar",
+    "serviceURL": "https://calendar.google.com/",
+    "message": "",
+    "popup": [],
+    "hasNotificationSound": false,
+    "hasIndirectMessages": false,
+    "hasTeamID": false,
+    "customURL": false,
+    "hostedOnly": false,
+    "webviewOptions": {
+      "disablewebsecurity": ""
+    },
+    "openDevTools": false
   }
 }
